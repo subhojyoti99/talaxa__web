@@ -13,17 +13,15 @@ import Shayari from './components/Shayari';
 function App() {
   return (
     <>
-      <Navbar/>
+    <Navbar/>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/communities" component={Communities} />
-        <Route exact path="/communities/shayari" component={Shayari} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
-  <Shayari/>
-  <Footer/>
-
+    <Shayari/>
+    <Footer/>
     </>
     
   );
