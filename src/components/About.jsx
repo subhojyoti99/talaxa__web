@@ -10,7 +10,7 @@ export default function About() {
                     <h3 className="fs-5 text-center mb-3">AbouT_us</h3>
                     </div>
                     <div className="col-md-6">
-                        <img src="./images/19.jpg" alt="About" className="w-75 mt-5" />
+                        <img src="/images/19.jpg" alt="About" className="w-75 mt-5" />
                     </div>
                     <div className="col-md-6">
                         <h1 className="display-6 mb-2">What Is <b>TalaxA</b></h1>
