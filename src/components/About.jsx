@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './images/19.jpg';
+import Logo from '../../public/images/19.jpg';
 
 export default function About() {
   return (
@@ -36,3 +36,4 @@ export default function About() {
     </div>
   )
 }
+
